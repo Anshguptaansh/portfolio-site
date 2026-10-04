@@ -17,8 +17,10 @@ const Preface = () => (
       {/* Two-column layout */}
       <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-start">
         {/* Portrait */}
-        <div className="preface-image">
-          <img src={prefaceImage} alt="Portrait" loading="lazy" />
+        <div className="flex justify-center">
+          <div className="preface-image">
+            <img src={prefaceImage} alt="Portrait" loading="lazy" />
+          </div>
         </div>
 
         {/* Bio copy */}
